@@ -1,13 +1,15 @@
 import { StatusBar } from "expo-status-bar";
 import { View } from "react-native";
 
-import Form from "./src/screens/form";
+import List from "./src/screens/list";
+import FlatListComponents from "./src/screens/flatlist";
 
 export default function App() {
   return (
     <View style={{marginTop: 50}}>
       <StatusBar />
-      <Form />
+      <List />
+      <FlatListComponents />
     </View>
   );
 }
